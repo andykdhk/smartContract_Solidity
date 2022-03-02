@@ -20,20 +20,24 @@ contract Ticket{
     }
 
     function addT(address _user, uint256 _amount) internal{
-       tHolders[_user] = tHolders[_user]+_amount;
+       tHolders[_user] = tHolders[_user] + _amount;
+    }
+
+    function subT(address _user, uint256 _amount) internal{
+        require(tHolders[_user] >= _amount,"not enough tickets");
+        tHolders[_user] = tHolders[_user] - _amount;
+
     }
 
     function buyT(address _user, uint256 _amount) payable public{
-
         addT( _user,  _amount);
     }
 
-function useT(address _user, uint256 _amount) public{
 
-}
+    function useT(address _user, uint256 _amount) public{
+        subT( _user,  _amount);
+    }
 
-function subT(address _user, uint256 _amount) internal{
-
-}
+  
     
 }
