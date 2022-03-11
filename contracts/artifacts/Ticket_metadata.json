@@ -101,11 +101,11 @@
 	},
 	"sources": {
 		"contracts/Ticket.sol": {
-			"keccak256": "0x40785844eaeb23ea81f26d97414fc7ec48d5728f5d7ae3d032d124ce0f3e5018",
+			"keccak256": "0x5f5165f72d966cc6c9c3409627f06692ec047cf23542538136b3b267128ca7e5",
 			"license": "GPL-3.0",
 			"urls": [
-				"bzz-raw://ac718bc07e7c036075e037ce3fe445f3f0e31e0c850b8bec7df7dc41350d8789",
-				"dweb:/ipfs/QmdxsTvFiSGhrMfj9JnMr7Pg7ch9FcUSk6zxU1wPnJsK9y"
+				"bzz-raw://37a78960e75fdd61a0870ab71df314e837f02ac2fbe475e4de4594b74abf85f1",
+				"dweb:/ipfs/QmfHJsB2rwSHFvNCisY6T53qfzD13S7D4xmmZJKcTMwZXL"
 			]
 		}
 	},

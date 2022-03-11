@@ -30,6 +30,7 @@ contract Ticket{
     }
 
     function buyT(address _user, uint256 _amount) payable public{
+        require(msg.value >= tPrice*_amount);
         addT( _user,  _amount);
     }
 
